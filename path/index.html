@@ -34,11 +34,11 @@
       document.getElementById("decodedIDToken").append(liff.getDecodedIDToken().email)
     }
     async function main() {
-      await liff.init({ liffId: "1653832360-w6QkQpV4" })
+      await liff.init({ liffId: "1653880644-wp0Z2xK5" })
       if (liff.isLoggedIn()) {
         getUserProfile()
       } else {
-        liff.login({ redirectUri: "https://jirawatee.github.io/liff/path/" })
+        liff.login({ redirectUri: "https://foopong.github.io/liff/path/" })
       }
     }
     main()
